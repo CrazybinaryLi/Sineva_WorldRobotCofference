@@ -1,4 +1,5 @@
 //Using the betop joystick to drive the turtle of turtlesim
+#include <math.h>
 #include <ros/ros.h>
 #include <geometry_msgs/Twist.h> //includes the twist msg so that we can publish twist commands to the turtle
 #include <sensor_msgs/Joy.h>//includes the joystick msg so that we can listen to the joy topic
